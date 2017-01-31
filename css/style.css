@@ -36,7 +36,10 @@ p {
   font-size: 18px;
   padding: 20px 20px 2px 20px;
 }
-
+.author {
+  font-style: italic;
+  color: darkgray;
+}
 /*Buttons*/
 .btn-primary {
   position: relative;
