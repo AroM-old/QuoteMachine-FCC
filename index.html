@@ -8,22 +8,26 @@
 </head>
 
 <body>
-  <!--Encabezado-->
+  <!--Tittle-->
   <header>
     <h1>Random Quote Generator</h1>
   </header>
-  <!--Fin del encabezado-->
+  
+  <!--Quote container-->
   <div class="container">
-    <div class="quote">
-      <p class="message">Click quote button to show new quote!</p>
+    <div class="quote-section">
+      <p class="quote">Click quote button to generate a new quote!</p>
       <p class="author">Author</p>
     </div>
+
+    <!-- Buttons group -->
     <div class="btn-section">
       <button id="getMessage" class="btn-primary">Quote</button>
-      <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world" target="_blank" data-text="tweet"><button id="tweetMessage" class="btn-primary">
-        Tweet it!</button></a>
+      <button id="tweetMessage" class="btn-primary">Tweet it!</button></a>
     </div>
   </div>
+
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
   <script src="js/index.js"></script>
 </body>
