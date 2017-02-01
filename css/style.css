@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
 * {
   margin: 0px;
   /*border: 1px solid;*/
@@ -10,6 +10,7 @@ html {
 
 body {
   background-color: lightgreen;
+  margin-top: 60px;
 }
 header {
   text-align: center;
@@ -21,22 +22,25 @@ h1{
 .container {
   background-color: green;
   border-radius: 15px;
-  height: 400px;
+  height: 300px;
   margin: 0 auto;
 }
-.quote {
+.quote-section {
   background-color: white;
   height: 200px;
   border: 5px solid green;
   border-radius: 15px;
 }
 p {
-  font-family: "Roboto";
+  font-family: "Playfair Display";
   text-align: center;
-  font-size: 18px;
-  padding: 20px 20px 2px 20px;
+  font-size: 22px;
+  padding: 30px 30px 2px 30px;
 }
-
+.author {
+  font-style: italic;
+  color: darkgray;
+}
 /*Buttons*/
 .btn-primary {
   position: relative;
@@ -44,7 +48,7 @@ p {
   border: 0px;
   border-radius: 5px;
   padding: 10px 15px;
-  margin: 10px;
+  margin: 20px 10px;
   cursor: pointer;
   display: inline-block;
   text-transform: uppercase;
